@@ -21,4 +21,5 @@ def read_video(s):
     cap.release()
     cv2.destroyAllWindows()
 
+def write_video(s):
     
