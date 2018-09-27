@@ -6,4 +6,7 @@ Created on Thu Sep 27 11:46:22 2018
 @author: sudha
 """
 import pims
-v=pims.Video(s)
+
+def read_video(s):
+    v=pims.Video(s)
+    return v
